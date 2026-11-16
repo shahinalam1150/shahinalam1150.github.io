@@ -26,6 +26,7 @@
       font-size: 18px;
     }
     main {
+      
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
@@ -46,7 +47,35 @@
       padding: 20px;
       font-size: 14px;
     }
+        .contact-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      list-style: none;
+      padding: 0;
+    }
+    .contact-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #FFFFFF;
+      border: 2px solid #2E7D32;
+      border-radius: 8px;
+      padding: 10px 16px;
+      text-decoration: none;
+      color: #2E7D32;
+      font-weight: bold;
+    }
+    .contact-links a:hover {
+      background-color: #2E7D32;
+      color: #FFFFFF;
+    }
+    .contact-links i {
+      font-size: 22px;
+    }
   </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
 </head>
 <body>
 
@@ -68,6 +97,16 @@
         <li>Genetics and Plant Breeding</li>
         <li>Plant Biotechnology</li>
         <li>Molecular Breeding</li>
+      </ul>
+    </section>
+        <section>
+      <h2>Contact and Profiles</h2>
+      <ul class="contact-links">
+        <li><a href="mailto:shahinalam9398@gmail.com" title="shahinalam9398@gmail.com"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><a href="https://www.linkedin.com/in/mdshahinalamshahin" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+        <li><a href="https://orcid.org/0009-0003-2748-8691" target="_blank" rel="noopener"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
+        <li><a href="https://scholar.google.com/citations?user=E517FCUAAAAJ&hl=en" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i> Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Md-Shahin-Alam-Shahin" target="_blank" rel="noopener"><i class="ai ai-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
       </ul>
     </section>
   </main>
